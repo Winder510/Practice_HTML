@@ -1,0 +1,80 @@
+/* căn lề lại các hiết lập mặc đinh*/
+*{
+    padding: 0;
+    margin:0;
+    font-family: "Roboto",sans-serif;
+}
+/*căn khối contianer ở giữa màn hình */
+.container{
+    width: 980px;
+    margin:0 auto;
+}
+
+header{
+    height: 100px;
+    background: #cb7802;
+}
+header img{
+    padding-left: 30px;
+}
+nav{
+    height: 35px;
+    background-color:#272f54 ;
+    margin-bottom:5px; /*can duoi*/
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0 15px; /* padding: (trenduoi) (traiphai)*/ 
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+nav .search{
+    line-height: 35px; /*căn giữa */
+    float:right; /*sang bên phải */
+    margin-right: 25px;
+}
+article h3{
+    text-align: center;
+    padding: 15px 0px;
+    color: #272f54;
+    font-size: 20px;
+    text-transform: uppercase; 
+    font-weight: bold; /*chữ đâm*/
+}
+article .new_list .new_item{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 4%;
+}
+article .new_list .new_item h4{
+    font-size: 16px;
+    color: #ad3f00;
+
+}
+article .new_list .new_item img{
+    margin: 10px auto;
+}
+article .new_list .new_item .content{
+    font-size: 13px;
+}
+#fix{
+    margin-right: 0%;
+}
+footer{
+    height:40px;
+    background: #272f54;
+    text-align: center;
+    line-height: 40px;;
+    font-weight: bold;
+    color: #ccc;
+
+}
