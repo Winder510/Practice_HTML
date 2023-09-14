@@ -38,7 +38,8 @@ nav .menu ul li a{
 nav .search{
     line-height: 35px; /*căn giữa */
     float:right; /*sang bên phải */
-    margin-right: 25px;
+    margin-right: 60px;
+    
 }
 article h3{
     text-align: center;
@@ -54,6 +55,7 @@ article .new_list .new_item{
     float: left;
     border: 1px solid #ccc;
     margin-right: 4%;
+    overflow: hidden;
 }
 article .new_list .new_item h4{
     font-size: 16px;
@@ -77,4 +79,15 @@ footer{
     font-weight: bold;
     color: #ccc;
 
+}
+#custom_input {
+    width: 300px; 
+    line-height: 25px;
+}
+button{
+    width: 75px;
+    height: 27px;
+    color: white;
+    background-color:#272f54 ;
+    border: 1px solid;
 }
